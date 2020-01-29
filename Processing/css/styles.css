@@ -1,0 +1,62 @@
+/* Set up fonts, colors and all that jazz. */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+    display:flex;
+}
+
+h1,
+h2, {
+    color: #2a2f2c;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    line-height: 1.125;
+}
+
+
+.content_heading {
+    font-size: 125%;
+}
+
+#defaultCanvas0{
+    width:600px!important;
+    height:600px!important;
+}
+
+
+
+button{
+outline: none;
+height: 40px;
+text-align: center;
+border-radius: 40px;
+background: #fff;
+border: 2px solid #2a2f2c;
+color: black;
+letter-spacing: 1px;
+text-shadow: 0;
+font-size: 12px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.25s ease;
+}
+
+button:hover {
+color: white;
+background: #2a2f2c;
+}
+
+#dispersive
+{
+    display:none;
+}
+
+a{
+    color:black;
+}
+
+#img_loi img{
+    width : 200px;
+    height:200px;
+}

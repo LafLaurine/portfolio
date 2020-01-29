@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>(Re)coding Frieder Nake</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Pierre Labendzki - Laurine Lafontaine">
+    <meta name="description" content="WEB Project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="content">
+        <section class="content">
+            <h1 class="content_heading">Based on Frieder Nake artworks</h1>
+
+        </section>
+
+        <button class="btn" type="submit" name="submitButton" id="submitButton">Bicolor Gauss</button>
+        <button class="btn" type="submit" name="submitButton" id="submitButton2">Linear Gauss Combinaison</button>
+        <button class="btn" type="submit" name="submitButton" id="submitButton3">Probability grid</button>
+        <button class="btn" type="submit" name="submitButton" id="submitButton4">Simple Gauss</button>
+        <button class="btn" type="submit" name="submitButton" id="submitButton5">Simple algorithm</button>
+
+        <div id="dispersive">
+            <h3>Dispersive factor : </h3>
+            <h2 id="value"></h2>
+            <h2 id="valueGauss"></h2>
+            <button id="plus" type="submit" name="submitButton">+</button>
+            <button id="moins" type="submit" name="submitButton">-</button>
+        </div>
+
+        <h3>Explanation : </h3>
+        <div class="expli"></div>
+
+        <div id="img_loi"></div>
+
+        <div id="download">
+            <h3>Download originals processing</h3>
+            <a target="_blank" href="./algo/GAUSS_BICOLORE/GAUSS_BICOLORE.pde" download="GAUSS_BICOLORE.pde">
+                Bicolor Gauss
+            </a></br>
+
+            <a target="_blank" href="./algo/combi_gaus_lin_aire/combi_gaus_lin_aire.pde" download="GAUSS_LINEAIRE.pde">
+                Linear Gauss Combinaison
+            </a></br>
+
+            <a target="_blank" href="./algo/grid/grid.pde" download="GRID.pde">
+                Probability Grid
+            </a></br>
+
+            <a target="_blank" href="./algo/simple_gauss/simple_gauss.pde" download="SIMPLE_GAUSS.pde">
+                Simple Gauss
+            </a></br>
+
+            <a target="_blank" href="./algo/simple_algo/simple_algo.pde" download="SIMPLE_ALGO.pde">
+                Simple algo
+            </a></br>
+
+        </div>
+
+    </section>
+
+    <script src="js/p5.js"></script>
+    <script src="js/p5.dom.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/exp.js"></script>
+
+
+
+
+</body>
+
+</html>
