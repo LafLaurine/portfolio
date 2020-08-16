@@ -79,31 +79,43 @@
             <!-- End Dashboard -->
 
             <!-- UI Components -->
-            <li class="u-sidebar-nav-menu__item u-sidebar-nav--opened">
-              <a class="u-sidebar-nav-menu__link active" href="#" data-target="#menuItemUIComponents">
+            <li class="u-sidebar-nav-menu__item">
+              <a class="u-sidebar-nav-menu__link" href="#" data-target="#menuItemUIComponents">
                 <span class="ti-panel u-sidebar-nav-menu__item-icon"></span>
                 <span class="u-sidebar-nav-menu__item-title">Portfolio</span>
                 <span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
               </a>
 
               <ul id="menuItemUIComponents" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level"
-                style="display: block;">
+                style="display: none;">
                 <!-- Modals -->
                 <li class="u-sidebar-nav-menu__item">
-                  <a class="u-sidebar-nav-menu__link active" href="web.html">
+                  <a class="u-sidebar-nav-menu__link" href="web.html">
                     <span class="u-sidebar-nav-menu__item-icon">W</span>
                     <span class="u-sidebar-nav-menu__item-title">Web</span>
                   </a>
                 </li>
-
-                <!-- Modals -->
                 <li class="u-sidebar-nav-menu__item">
-                  <a class="u-sidebar-nav-menu__link active" href="prog.html">
-                    <span class="u-sidebar-nav-menu__item-icon">P</span>
-                    <span class="u-sidebar-nav-menu__item-title">Programmation</span>
+                  <a class="u-sidebar-nav-menu__link" href="jeux.html">
+                    <span class="u-sidebar-nav-menu__item-icon">J</span>
+                    <span class="u-sidebar-nav-menu__item-title">Programmation de jeux</span>
+                  </a>
+                </li>
+                <li class="u-sidebar-nav-menu__item">
+                  <a class="u-sidebar-nav-menu__link" href="logicielle.html">
+                    <span class="u-sidebar-nav-menu__item-icon">L</span>
+                    <span class="u-sidebar-nav-menu__item-title">Programmation logicielle</span>
                   </a>
                 </li>
 
+                <li class="u-sidebar-nav-menu__item">
+                  <a class="u-sidebar-nav-menu__link" href="deeplearning.html">
+                    <span class="u-sidebar-nav-menu__item-icon">D</span>
+                    <span class="u-sidebar-nav-menu__item-title">Deep learning</span>
+                  </a>
+                </li>
+                <!-- End Modals -->
+              </ul>
             </li>
             <!-- End UI Components -->
             <!-- End Sidebar Nav Menu -->
@@ -124,7 +136,10 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
             <li class="breadcrumb-item"><a href="web.html">Portfolio</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Programmation</li>
+            <li class="breadcrumb-item"><a href="web.html">Web</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="jeux.html">Programmation de jeux</a></li>
+            <li class="breadcrumb-item"><a href="logicielle.html">Programmation logicielle</a></li>
+            <li class="breadcrumb-item"><a href="deeplearning.html">Deep learning</a></li>
           </ol>
         </nav>
         <!-- End Breadcrumb -->
@@ -143,37 +158,9 @@
               </div>
 
               <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#processing" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/processing.png" alt="Logo Sagado">
-                  <span class="font-weight-semi-bold">(Re)coding Frieder Nake</span>
-                </a>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#minigimp" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/minigimp.png" alt="minigimp">
-                  <span class="font-weight-semi-bold">Minigimp</span>
-                </a>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                 <a class="d-block text-center" href="#tower" data-toggle="modal">
                   <img class="img-fluid d-block mb-3" src="assets/img/tower.png" alt="TowerDefense">
                   <span class="font-weight-semi-bold">TowerDefense</span>
-                </a>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#worldimaker" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/worldimaker.png" alt="WorldIMAKER">
-                  <span class="font-weight-semi-bold">WorldIMAKER</span>
-                </a>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#afpSecure" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/df.png" alt="WorldIMAKER">
-                  <span class="font-weight-semi-bold">AFP Secure</span>
                 </a>
               </div>
             </div>
@@ -220,59 +207,6 @@
   <!-- End Vertically Centered Modals -->
 
   <!-- Vertically Centered Modals -->
-  <div class="modal fade" id="processing" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">PROCESSING</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Recoder une oeuvre de Frieder Nake, pionnier de l'art informatique.</p>
-          <p>Travail sur des algortihmes de répartition gaussienne</p>
-          <p>Outils : Processing, HTML, CSS, p5.js </p>
-          <p><a href="./Processing/index.html" target="_blank">Lien vers le site</a></p>
-          <p>Effectué avec <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Vertically Centered Modals -->
-
-  <!-- Vertically Centered Modals -->
-  <div class="modal fade" id="minigimp" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">MINIGIMP</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Minigimp est un programme qui permet à l'utilisateur de modifier une image comme pourrait le faire un
-            logiciel de traitement d'images.</p>
-          <p>Permet de mettre une image en noir et blanc, en sépia, etc. Cela permet aussi d'ajouter des pixels, de la
-            luminosité, d'en retirer et de faire pleins d'autres modifications que je vous laisse découvrir.</p>
-          <p>Outils : C, Création de LUT</p>
-          <p><a href="https://github.com/LafLaurine/imac-minigimp-c" target="_blank">Lien vers le github</a></p>
-          <p>Effectué avec <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Vertically Centered Modals -->
-
-
-  <!-- Vertically Centered Modals -->
   <div class="modal fade" id="tower" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -288,55 +222,6 @@
           <p>Réalisation d'un tower defense autour du thème du dessin animé "Il était une fois la vie"</p>
           <p>Outils : C, OpenGL, SDL</p>
           <p>Effectué avec <a href="https://github.com/ClawsDevlp" target="_blank">Clara Daigmorte</a></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Vertically Centered Modals -->
-
-
-  <!-- Vertically Centered Modals -->
-  <div class="modal fade" id="worldimaker" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">WORLDIMAKER</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Réalisation d’un éditeur-visualiseur de terrain et de scène en 3D</p>
-          <p>Outils : C++, Modern OpenGL, SDL2, OpenGL Shading Language, ImGUI, CMake, Doxygen</p>
-          <p>Effectué avec <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Vertically Centered Modals -->
-
-  <!-- Vertically Centered Modals -->
-  <div class="modal fade" id="afpSecure" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">AFP SECURE</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Algorithme de détection de deepfakes et inclusion de celui-ci dans le plugin WeVerify InVID de l’Agence
-            France-Presse</p>
-          <p>Outils : Python, TensorFlow, pyTorch, Keras, Docker, Java Spring Boot, React </p>
-          <p>Effectué avec <a href="https://github.com/piptouque" target="_blank">Pierre Thiel</a> et <a
-              href="https://github.com/ManonSgro" target="_blank">Manon Sgro'</a></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
