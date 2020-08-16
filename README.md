@@ -2,4 +2,4 @@
 
 Laurine Lafontaine, étudiante en deuxième année à l'IMAC
 
-Lien : https://laflaurine.github.io/portfolio/
+https://laflaurine.github.io/portfolio/
