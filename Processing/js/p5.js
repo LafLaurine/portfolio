@@ -35722,7 +35722,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 
 	// The `maxp` table establishes the memory requirements for the font.
 
-	// Parse the maximum profile `maxp` table.
+	// Parse the maximum Profilee `maxp` table.
 	function parseMaxpTable(data, start) {
 	    var maxp = {};
 	    var p = new parse.Parser(data, start);
