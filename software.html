@@ -119,59 +119,178 @@
             <!-- Modal Types & Positions -->
             <div class="row">
               <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#flagviewer" data-toggle="modal">
+                <a class="d-block text-center" href="#flag-viewer" data-toggle="modal">
                   <img class="img-fluid d-block mb-3" src="assets/img/flag-viewer.jpg" alt="Flag viewer">
                   <span class="font-weight-semi-bold">Flag viewer</span>
                 </a>
               </div>
 
               <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#styletransfer" data-toggle="modal">
+                <a class="d-block text-center" href="#style-transfer" data-toggle="modal">
                   <img class="img-fluid d-block mb-3" src="assets/img/style-transfer.jpg" alt="Style transfer">
                   <span class="font-weight-semi-bold">Style Transfer</span>
                 </a>
               </div>
 
-              <div class="row">
-                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                  <a class="d-block text-center" href="#flagviewer" data-toggle="modal">
-                    <img class="img-fluid d-block mb-3" src="assets/img/learn-cuda.jpg" alt="Learn Cuda">
-                    <span class="font-weight-semi-bold">Learn Cuda</span>
-                  </a>
-                </div>
-
-                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                  <a class="d-block text-center" href="#worldimaker" data-toggle="modal">
-                    <img class="img-fluid d-block mb-3" src="assets/img/worldimaker.png" alt="WorldIMAKER">
-                    <span class="font-weight-semi-bold">WorldIMAKER</span>
-                  </a>
-                </div>
-
-                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                  <a class="d-block text-center" href="#processing" data-toggle="modal">
-                    <img class="img-fluid d-block mb-3" src="assets/img/processing.png" alt="Processing">
-                    <span class="font-weight-semi-bold">(Re)coding Frieder Nake</span>
-                  </a>
-                </div>
-
-                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                  <a class="d-block text-center" href="#minigimp" data-toggle="modal">
-                    <img class="img-fluid d-block mb-3" src="assets/img/minigimp.png" alt="minigimp">
-                    <span class="font-weight-semi-bold">Minigimp</span>
-                  </a>
-                </div>
-
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <a class="d-block text-center" href="#learn-cuda" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/learn-cuda.jpg" alt="Learn Cuda">
+                  <span class="font-weight-semi-bold">Learn Cuda</span>
+                </a>
               </div>
-              <!-- End Modal Types & Positions -->
+
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <a class="d-block text-center" href="#worldimaker" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/worldimaker.png" alt="WorldIMAKER">
+                  <span class="font-weight-semi-bold">WorldIMAKER</span>
+                </a>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <a class="d-block text-center" href="#processing" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/processing.png" alt="Processing">
+                  <span class="font-weight-semi-bold">(Re)coding Frieder Nake</span>
+                </a>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <a class="d-block text-center" href="#minigimp" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/minigimp.png" alt="minigimp">
+                  <span class="font-weight-semi-bold">Minigimp</span>
+                </a>
+              </div>
+
             </div>
+            <!-- End Modal Types & Positions -->
           </div>
-          <!-- End Card Body -->
         </div>
-        <!-- End Card -->
+        <!-- End Card Body -->
       </div>
-      <!-- End Content -->
+      <!-- End Card -->
+    </div>
+    <!-- End Content -->
   </main>
   <!-- End Main -->
+
+  <!-- Vertically Centered Modals -->
+  <div class="modal fade" id="flag-viewer" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Flag viewer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <video controls>
+          <source src="./assets/file/flag_viewer.mp4" type="video/mp4">
+        </video>
+        <div class="modal-body">
+          <p>A flag viewer made for a physical engine class at Université Gustave Eiffel. This is a real time flag
+            viewer/simulation in OpenGL. The user can control the wind (strength and direction), the physical parameter
+            of the flag (bend, shear, struct and wind). In order to see more of the physics point of view, we can
+            activate the wireframe option that allow us to see the flag in a grid format. </p>
+          <p>Tools : C++, OpenGL, CMake </p>
+          <p><a href="https://github.com/LafLaurine/flag_viewer" target="_blank">Link to the source code</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Vertically Centered Modals -->
+
+
+  <!-- Vertically Centered Modals -->
+  <div class="modal fade" id="style-transfer" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Style Transfer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Deforming meshes can be used to represent a collection of objects with different shapes and poses. Meshes
+            may differ in their number of vertices, faces and their topology. Such heterogeneity makes it difficult to
+            efficiently implement batched operations
+            on 3D data using operators provided by standard deep learning toolkits like PyTorch and Tensorflow. In our
+            case study, as we use the library PyTorch3D, the mesh is a load_obj which is a file format containing the
+            description of a 3D geometry.
+            We draw on state-of-the-art methods for 3D shape prediction to build a mesh deformation system.
+          </p>
+          <p>We wrote a <a href="./assets/file/SRN_deblur.pdf" target="_blank">paper</a> that explain into more details
+            our approach. </p>
+          <p>Tools : Python, PyTorch, PyTorch3D, Cuda for Python</p>
+          <p>Developed with <a href="https://github.com/dsmtE" target="_blank">Enguerrand De Smet</a></p>
+          <p><a href="https://github.com/IMAC-projects/style-transfer" target="_blank">Link to the source code</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Vertically Centered Modals -->
+
+  <!-- Vertically Centered Modals -->
+  <div class="modal fade" id="learn-cuda" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Learn Cuda</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This repository has been made first for learning purpose : learning Cuda in order to understand how to
+            manage devices and memory. It has then be used for my GPGPU class at the Université
+            Gustave Eiffel.
+          </p>
+          <p>Tools : C++, Cuda, CMake </p>
+          <p>It is a shared repository with <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume
+              Haerinck</a>
+            since we took the same class</p>
+          <p><a href="https://github.com/creative-uber-learning/learn-cuda" target="_blank">Link to the source code</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Vertically Centered Modals -->
+
+  <!-- Vertically Centered Modals -->
+  <div class="modal fade" id="worldimaker" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">WorldIMAKER</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Creation of a 3D terrain and scene editor-visualiser</p>
+          <p>Tools : C++, Modern OpenGL, SDL2, ImGUI, CMake, Doxygen</p>
+          <p>Developed with <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
+          <p><a href="https://github.com/LafLaurine/imac2-worldIMaker" target="_blank">Link to the source code</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Vertically Centered Modals -->
 
   <!-- Vertically Centered Modals -->
   <div class="modal fade" id="processing" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -190,7 +309,7 @@
           <p><a href="https://laflaurine.github.io/recoding-frieder-nake/" target="_blank">Website link</a></p>
           <p><a href="https://github.com/LafLaurine/recoding-frieder-nake" target="_blank">Link to the source code</a>
           </p>
-          <p>Effectué avec <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
+          <p>Developed with <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -211,38 +330,13 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>Minigimp est un programme qui permet à l'utilisateur de modifier une image comme pourrait le faire un
-            logiciel de traitement d'images.</p>
-          <p>Permet de mettre une image en noir et blanc, en sépia, etc. Cela permet aussi d'ajouter des pixels, de la
-            luminosité, d'en retirer et de faire pleins d'autres modifications que je vous laisse découvrir.</p>
-          <p>Outils : C, Création de LUT</p>
+          <p>Minigimp is a program that allows the user to modify an image in the same way as an image processing
+            software.</p>
+          <p>Allows you to put an image in black and white, sepia, etc. It also allows you to add pixels, luminosity,
+            to remove some and to make full of other modifications that I let you discover.</p>
+          <p>Tools : C, LUT creation</p>
           <p><a href="https://github.com/LafLaurine/imac-minigimp-c" target="_blank">Link to the source code</a></p>
-          <p>Effectué avec <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Vertically Centered Modals -->
-
-
-  <!-- Vertically Centered Modals -->
-  <div class="modal fade" id="worldimaker" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">WorldIMAKER</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Réalisation d’un éditeur-visualiseur de terrain et de scène en 3D</p>
-          <p>Outils : C++, Modern OpenGL, SDL2, OpenGL Shading Language, ImGUI, CMake, Doxygen</p>
-          <p>Effectué avec <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
-          <p><a href="https://github.com/LafLaurine/imac2-worldIMaker" target="_blank">Link to the source code</a></p>
+          <p>Developed with <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
