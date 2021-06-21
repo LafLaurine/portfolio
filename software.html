@@ -3,7 +3,7 @@
 <!-- Head -->
 
 <head>
-  <title>Portfolio | Lafontaine Laurine </title>
+  <title>Portfolio | Laurine Lafontaine </title>
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,6 +54,7 @@
                 <span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
               </a>
 
+
               <ul id="menuItemUIComponents" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level"
                 style="display: none;">
                 <!-- Modals -->
@@ -102,8 +103,7 @@
         <!-- Breadcrumb -->
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-            <li class="breadcrumb-item"><a href="web.html">Portfolio</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item"><a href="web.html">Web</a></li>
             <li class="breadcrumb-item"><a href="games.html">Game programming</a></li>
             <li class="breadcrumb-item active" aria-current="page">Software programming</li>
@@ -122,13 +122,6 @@
                 <a class="d-block text-center" href="#flag-viewer" data-toggle="modal">
                   <img class="img-fluid d-block mb-3" src="assets/img/flag-viewer.jpg" alt="Flag viewer">
                   <span class="font-weight-semi-bold">Flag viewer</span>
-                </a>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#style-transfer" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/style-transfer.jpg" alt="Style transfer">
-                  <span class="font-weight-semi-bold">Style Transfer</span>
                 </a>
               </div>
 
@@ -177,7 +170,8 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Flag viewer</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a href="https://github.com/LafLaurine/flag_viewer"
+              target="_blank">Flag viewer</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -190,44 +184,8 @@
             viewer/simulation in OpenGL. The user can control the wind (strength and direction), the physical parameter
             of the flag (bend, shear, struct and wind). In order to see more of the physics point of view, we can
             activate the wireframe option that allow us to see the flag in a grid format. </p>
-          <p>Tools : C++, OpenGL, CMake </p>
+          <p><b></b>Tools</b> : C++, OpenGL, CMake </p>
           <p><a href="https://github.com/LafLaurine/flag_viewer" target="_blank">Link to the source code</a>
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Vertically Centered Modals -->
-
-
-  <!-- Vertically Centered Modals -->
-  <div class="modal fade" id="style-transfer" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Style Transfer</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Deforming meshes can be used to represent a collection of objects with different shapes and poses. Meshes
-            may differ in their number of vertices, faces and their topology. Such heterogeneity makes it difficult to
-            efficiently implement batched operations
-            on 3D data using operators provided by standard deep learning toolkits like PyTorch and Tensorflow. In our
-            case study, as we use the library PyTorch3D, the mesh is a load_obj which is a file format containing the
-            description of a 3D geometry.
-            We draw on state-of-the-art methods for 3D shape prediction to build a mesh deformation system.
-          </p>
-          <p>We wrote a <a href="./assets/file/SRN_deblur.pdf" target="_blank">paper</a> that explain into more details
-            our approach. </p>
-          <p>Tools : Python, PyTorch, PyTorch3D, Trimesh</p>
-          <p>Developed with <a href="https://github.com/dsmtE" target="_blank">Enguerrand De Smet</a></p>
-          <p><a href="https://github.com/IMAC-projects/style-transfer" target="_blank">Link to the source code</a>
           </p>
         </div>
         <div class="modal-footer">
@@ -243,7 +201,8 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Learn Cuda</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a
+              href="https://github.com/creative-uber-learning/learn-cuda" target="_blank">Learn Cuda</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -253,7 +212,7 @@
             manage devices and memory. It has then be used for my GPGPU class at the Université
             Gustave Eiffel.
           </p>
-          <p>Tools : C++, Cuda, CMake </p>
+          <p><b>Tools</b> : C++, Cuda, CMake </p>
           <p>It is a shared repository with <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume
               Haerinck</a>
             since we took the same class</p>
@@ -273,14 +232,15 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">WorldIMAKER</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a href="https://github.com/LafLaurine/imac2-worldIMaker"
+              target="_blank">WorldIMAKER</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           <p>Creation of a 3D terrain and scene editor-visualiser</p>
-          <p>Tools : C++, Modern OpenGL, SDL2, ImGUI, CMake, Doxygen</p>
+          <p><b>Tools</b> : C++, Modern OpenGL, SDL2, ImGUI, CMake, Doxygen</p>
           <p>Developed with <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
           <p><a href="https://github.com/LafLaurine/imac2-worldIMaker" target="_blank">Link to the source code</a></p>
         </div>
@@ -297,7 +257,9 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">(Re)coding Frieder Nake</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a
+              href="https://laflaurine.github.io/recoding-frieder-nake/" target="_blank">(Re)coding Frieder Nake</a>
+          </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -305,11 +267,11 @@
         <div class="modal-body">
           <p>Recode a work by Frieder Nake, a pioneer of computer art.</p>
           <p>Work on Gaussian distribution algortihms</p>
-          <p>Tools : Processing, HTML, CSS, p5.js </p>
-          <p><a href="https://laflaurine.github.io/recoding-frieder-nake/" target="_blank">Website link</a></p>
+          <p><b>Tools</b> : Processing, HTML, CSS, p5.js </p>
+          <p><a href="https://laflaurine.github.io/recoding-frieder-nake/" target="_blank">Link to the website</a></p>
+          <p>Developed with <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
           <p><a href="https://github.com/LafLaurine/recoding-frieder-nake" target="_blank">Link to the source code</a>
           </p>
-          <p>Developed with <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -324,7 +286,8 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Minigimp</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a href="https://github.com/LafLaurine/imac-minigimp-c"
+              target="_blank">Minigimp</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -334,9 +297,10 @@
             software.</p>
           <p>Allows you to put an image in black and white, sepia, etc. It also allows you to add pixels, luminosity,
             to remove some and to make full of other modifications that I let you discover.</p>
-          <p>Tools : C, LUT creation</p>
-          <p><a href="https://github.com/LafLaurine/imac-minigimp-c" target="_blank">Link to the source code</a></p>
+          <p><b>Tools</b> : C, LUT creation</p>
           <p>Developed with <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
+          <p><a href="https://github.com/LafLaurine/imac-minigimp-c" target="_blank">Link to the source code</a></p>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

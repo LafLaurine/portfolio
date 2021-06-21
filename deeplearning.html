@@ -3,7 +3,7 @@
 <!-- Head -->
 
 <head>
-  <title>Portfolio | Lafontaine Laurine </title>
+  <title>Portfolio | Laurine Lafontaine </title>
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -102,8 +102,7 @@
         <!-- Breadcrumb -->
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-            <li class="breadcrumb-item"><a href="web.html">Portfolio</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item"><a href="web.html">Web</a></li>
             <li class="breadcrumb-item"><a href="games.html">Game programming</a></li>
             <li class="breadcrumb-item"><a href="software.html">Software programming</a></li>
@@ -120,9 +119,16 @@
             <div class="row">
 
               <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#srn" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/df.png" alt="SRN">
-                  <span class="font-weight-semi-bold">Personal project</span>
+                <a class="d-block text-center" href="#personal-project" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/personal-project.jpg" alt="Personal project">
+                  <span class="font-weight-semi-bold">Remove this noise and describe me this image !</span>
+                </a>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <a class="d-block text-center" href="#style-transfer" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/style-transfer.jpg" alt="Style transfer">
+                  <span class="font-weight-semi-bold">Style Transfer</span>
                 </a>
               </div>
 
@@ -134,18 +140,19 @@
               </div>
 
               <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <a class="d-block text-center" href="#IRCGN" data-toggle="modal">
+                  <img class="img-fluid d-block mb-3" src="assets/img/IRCGN.png" alt="IRCGN head compare">
+                  <span class="font-weight-semi-bold">IRCGN head compare</span>
+                </a>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                 <a class="d-block text-center" href="#afpSecure" data-toggle="modal">
                   <img class="img-fluid d-block mb-3" src="assets/img/df.png" alt="AFP Secure">
                   <span class="font-weight-semi-bold">AFP Secure</span>
                 </a>
               </div>
 
-              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                <a class="d-block text-center" href="#IRCGN" data-toggle="modal">
-                  <img class="img-fluid d-block mb-3" src="assets/img/IRCGN.png" alt="IRCGN head compare">
-                  <span class="font-weight-semi-bold">IRCGN head compare</span>
-                </a>
-              </div>
             </div>
           </div>
           <!-- End Card -->
@@ -154,24 +161,113 @@
   </main>
   <!-- End Main -->
 
+  <!-- Vertically Centered Modals -->
+  <div class="modal fade" id="personal-project" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a href="https://laurine-dev-blog.herokuapp.com/"
+              target="_blank">Remove this noise
+              and describe me this image !</a></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>The goal of this project was to denoise an image using deep learning. After the denoising, NLP technologies
+            are used to automatically describe the content of the image. Indeed, if my image is denoised enough, I could
+            describe it well without any problem. That's the point of the project : denoise an image enough in order to
+            describe the content of it.
+          </p>
+          <p>I built a <a href="https://laurine-dev-blog.herokuapp.com/" target="_blank">development blog</a> where
+            I explain
+            into more details my approach. </p>
+          <p><b>Tools</b> : Python, PyTorch, Keras, NextJS</p>
+          <p><a href="https://github.com/LafLaurine/imac3-personal-project" target="_blank">Link to the source code</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Vertically Centered Modals -->
+
+  <!-- Vertically Centered Modals -->
+  <div class="modal fade" id="style-transfer" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a href="https://github.com/IMAC-projects/style-transfer"
+              target="_blank">Style Transfer</a></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Deforming meshes can be used to represent a collection of objects with different shapes and poses. Meshes
+            may differ in their number of vertices, faces and their topology. Such heterogeneity makes it difficult to
+            efficiently implement batched operations
+            on 3D data using operators provided by standard deep learning toolkits like PyTorch and Tensorflow. In our
+            case study, as we use the library PyTorch3D, the mesh is a load_obj which is a file format containing the
+            description of a 3D geometry.
+            We draw on state-of-the-art methods for 3D shape prediction to build a mesh deformation system.
+            It is based on the ECCV 2020 paper<a href="https://arxiv.org/pdf/2003.12397.pdf" target="_blank"> Modeling
+              3D
+              Shapes by Reinforcement Learning</a>.
+          </p>
+          <p>We wrote a <a href="./assets/file/SRN_deblur.pdf" target="_blank">paper</a> that explain into more details
+            our approach. </p>
+          <p>We are featured on <a href="https://paperswithcode.com/paper/modeling-3d-shapes-by-reinforcement-learning"
+              target="_blank">papers with code </a>!</p>
+          <p><b>Tools</b> : Python, PyTorch, PyTorch3D, Trimesh</p>
+          <p>Developed with <a href="https://github.com/dsmtE" target="_blank">Enguerrand De Smet</a></p>
+          <p><a href="https://github.com/IMAC-projects/style-transfer" target="_blank">Link to the source code</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Vertically Centered Modals -->
 
   <!-- Vertically Centered Modals -->
   <div class="modal fade" id="srn" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Scale Recurrent Network for video deblurring</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a
+              href="https://github.com/IMAC-projects/SRN-Deblurring-PyTorch" target="_blank">Scale Recurrent Network for
+              video deblurring</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <p>Algorithme de détection de deepfakes et inclusion de celui-ci dans le plugin WeVerify InVID de l’Agence
-            France-Presse</p>
-          <p>Outils : Python, TensorFlow, PyTorch, Keras, Docker, SpringBoot, React </p>
-          <p>Effectué avec <a href="https://github.com/piptouque" target="_blank">Pierre Thiel</a> et <a
-              href="https://github.com/ManonSgro" target="_blank">Manon Sgro'</a></p>
-          <p><a href="https://github.com/LafLaurine/imac2-projetTUT" target="_blank">Link to the source code</a></p>
+          <p>We studied the paper <a href="https://arxiv.org/pdf/1802.01770.pdf" target="_blank">Scale-recurrent Network
+              for Deep Image
+              Deblurring</a> by X. Tao, H. Gao, Y. Wang, X. Shen, J. Wang and J. Jia.
+            We implemented our own CNN to deblur video and we compared its performance against SRN.
+          </p>
+          <p>
+            We wrote a <a href="./assets/file/SRN_deblur.pdf" target="_blank">paper </a>, where we have selected a few
+            of the best ranked neural networks in terms of their average
+            PSNR
+            and SSIM for the GoPro and related dataset. The Scale Recurrent Neural network (SRN) being both open source
+            and still in the top list, we focused our attention on
+            its structure and performance while still covering key
+            points of other papers.
+          </p>
+          <p><b>Tools</b> : Python, PyTorch </p>
+          <p>Developed with <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume
+              Haerinck</a></p>
+          <p><a href="https://github.com/IMAC-projects/SRN-Deblurring-PyTorch" target="_blank">Link to the source
+              code</a></p>
 
         </div>
         <div class="modal-footer">
@@ -187,16 +283,17 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">AFP Secure</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a href="https://github.com/LafLaurine/imac2-projetTUT"
+              target="_blank">AFP Secure</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <p>Algorithme de détection de deepfakes et inclusion de celui-ci dans le plugin WeVerify InVID de l’Agence
-            France-Presse</p>
-          <p>Outils : Python, TensorFlow, PyTorch, Keras, Docker, SpringBoot, React </p>
-          <p>Effectué avec <a href="https://github.com/piptouque" target="_blank">Pierre Thiel</a> et <a
+          <p>Detection algorithm of deepfakes and its inclusion into the WeVerify InVID plugin of l’Agence France Presse
+          </p>
+          <p><b>Tools</b> : Python, TensorFlow, PyTorch, Keras, Docker, SpringBoot, React </p>
+          <p>Developed with <a href="https://github.com/piptouque" target="_blank">Pierre Thiel</a> and <a
               href="https://github.com/ManonSgro" target="_blank">Manon Sgro'</a></p>
           <p><a href="https://github.com/LafLaurine/imac2-projetTUT" target="_blank">Link to the source code</a></p>
 
@@ -214,7 +311,8 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">IRCGN head compare</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle"><a
+              href="https://github.com/LafLaurine/imac2-memoire-ircgn" target="_blank">IRCGN head compare</a></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -223,7 +321,7 @@
           <p>Development of a deepfake application for the Criminal Research Institute of the Gendarmerie Nationale.
             Detection of the head orientation (Euler's angle), mouth opening,
             face expression and size of the bounding box. Building of a decoder and deepfake generation.</p>
-          <p>Tools : Python, TensorFlow, PyTorch, Keras</p>
+          <p><b>Tools</b> : Python, TensorFlow, PyTorch, Keras</p>
           <p>Developed with <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
           <p><a href="https://github.com/LafLaurine/imac2-memoire-ircgn" target="_blank">Link to the source code</a></p>
         </div>
