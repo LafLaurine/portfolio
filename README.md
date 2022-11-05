@@ -1,11 +1,6 @@
-<div align="center">
-  <h1>portfolYOU</h1>
-  <i>A beautiful portfolio Jekyll theme that works with GitHub Pages.</i>
+# Portfolio
 
-  <a href="https://YoussefRaafatNasry.github.io/portfolYOU/">Live Demo</a>
-  •
-  <a href="https://YoussefRaafatNasry.github.io/portfolYOU/docs/">Documentation</a>
+Laurine Lafontaine - Creative engineer, specialised in machine learning. \
+Currently an ✨AI engineer✨ at Harfanglab.
 
-  <a href="https://YoussefRaafatNasry.github.io/portfolYOU"><img src="screenshot.gif"></a>
-  <sub><sup>© 2019 portfolYOU, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
-</div>
+:computer: [Portfolio](https://laflaurine.github.io/portfolio/)

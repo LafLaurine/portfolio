@@ -1,0 +1,60 @@
+### Site Settings ###
+title               : Laurine Lafontaine
+description         : AI engineer
+baseurl             : ""
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : true
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Laurine Lafontaine
+  email             : laurine.lafontaine@outlook.fr
+  github            : LafLaurine
+  linkedin          : laurine-lafontaine-826545148
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Analytics ###
+analytics:
+  enabled: false
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+    values:
+      comments: false
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - "*.log"
