@@ -2,7 +2,7 @@
 title               : Laurine Lafontaine
 description         : AI engineer
 baseurl             : ""
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
 open_new_tab        : true
 
 
@@ -50,8 +50,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-    values:
-      comments: false
 
 
 ### Exclude from processing ###
