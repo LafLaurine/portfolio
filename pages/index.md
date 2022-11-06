@@ -9,11 +9,13 @@ permalink: /
 <!-- Fine Circle Responsive Image -->
 <div id="container" class="my-2">
     <div id="element">
-    <p class="wow animated slideInUp" data-wow-delay=".15s">AI engineer</p>
+    <p class="wow animated slideInUp" data-wow-delay=".15s">HI !</p>
     </div>
 </div>
 </div>
 </div>
+
+##### AI engineer chameleon that loves game dev
 
 🙋🏻‍♀️ Using my brain juice at Harfanglab to develop and improve our AI modules.
 
@@ -27,7 +29,7 @@ Things that I am into :
 🔧 Game development, mostly interested in Unreal Engine
 
 
-#### My favorite tools and languages :
+##### My favorite tools and languages :
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)

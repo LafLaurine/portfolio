@@ -4,19 +4,19 @@
 email:
   url   : "mailto:"
   icon  : fas fa-envelope
-  color : db4437
+  color : FF8B8B
 
 github:
   url   : https://www.github.com/
   icon  : fab fa-github
-  color : 333333
+  color : FF8B8B
 
 gitlab:
   url   : https://www.gitlab.com/
   icon  : fab fa-gitlab
-  color : fca326
+  color : FF8B8B
 
 linkedin:
   url   : https://www.linkedin.com/in/
   icon  : fab fa-linkedin-in
-  color : 007bb5
+  color : FF8B8B
