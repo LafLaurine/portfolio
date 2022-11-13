@@ -1,8 +1,9 @@
 ---
 name: Knock Knock
 tools: [Unreal Engine 4, Mixamo, Blender]
-image: ../assets/images/ggj2021.jpg
+image: /assets/images/ggj2021.jpg
 description: Unreal Engine 4 game made for the Global Game Jam 2021.
+type: Game
 ---
 
 ![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)

@@ -1,8 +1,9 @@
 ---
 name: Evil Age
 tools: [C++, Unreal Engine]
-image: ../assets/images/evil-age.jpg
+image: /assets/images/evil-age.jpg
 description: Unreal Engine 4 AI simulation game of a medieval village.
+type: Game
 ---
 
 # Evil Age

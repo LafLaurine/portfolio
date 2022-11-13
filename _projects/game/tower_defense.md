@@ -1,8 +1,9 @@
 ---
 name: Tower Defense
 tools: [C, OpenGL3, SDL]
-image: ../assets/images/tower.png
+image: /assets/images/tower.png
 description: Small tower defense made with C.
+type: Game
 ---
 
 

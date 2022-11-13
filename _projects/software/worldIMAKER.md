@@ -1,8 +1,9 @@
 ---
 name: WorldIMAKER
 tools: [C++, OpenGL, SDL2, ImGUI, CMake, RenderDoc]
-image: ../assets/images/worldimaker.png
+image: /assets/images/worldimaker.png
 description: Creation of a 3D terrain and scene editor-visualizer.
+type: Software
 ---
 
 ![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)

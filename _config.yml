@@ -32,6 +32,8 @@ permalink: /blog/:title
 collections:
   projects:
     output: true
+    ai:
+      permalink: /projects/ai/:name
     game:
       permalink: /projects/game/:name
     software:
