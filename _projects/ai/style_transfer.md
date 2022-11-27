@@ -1,12 +1,12 @@
 ---
 name: StyleTransfer
 tools: [Python, PyTorch, PyTorch3D, Trimesh]
-image: /assets/images/style-transfer.jpg
+image: ../assets/images/style-transfer.jpg
 description: PyTorch3D use case of modeling 3D shapes.
 type: AI
 ---
 
-![preview](/assets/images/style-transfer.jpg)
+![preview](../assets/images/style-transfer.jpg)
 
 <p>In collaboration with <a href="https://github.com/dsmtE" target="_blank">Enguerrand De Smet</a></p>
 

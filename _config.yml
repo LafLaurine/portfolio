@@ -1,6 +1,6 @@
 ### Site Settings ###
-title               : Laurine Lafontaine
-description         : AI engineer
+title               : Laurine Lafontaine | AI engineer
+description         : Portfolio of an AI engineer that loves game dev
 baseurl             : "/portfolio"
 open_new_tab        : true
 

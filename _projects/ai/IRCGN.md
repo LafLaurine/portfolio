@@ -1,12 +1,12 @@
 ---
 name: IRCGN head compare
 tools: [Python, TensorFlow, PyTorch, Keras]
-image: /assets/images/IRCGN.png
+image: ../assets/images/IRCGN.png
 description: Deepfake application for the Criminal Research Institute of the Gendarmerie Nationale.
 type: AI
 ---
 
-![preview](../assets/images/style-transfer.jpg)
+![preview](..../assets/images/style-transfer.jpg)
 
 <p>In collaboration with <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
 

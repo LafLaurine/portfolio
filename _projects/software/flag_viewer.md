@@ -1,7 +1,7 @@
 ---
 name: Flag viewer
 tools: [C++, Unity, Blender]
-image: /assets/images/flag-viewer.jpg
+image: ../assets/images/flag-viewer.jpg
 description: A flag viewer made for a physical engine class at Université Gustave Eiffel.
 type: Software
 ---

@@ -1,12 +1,12 @@
 ---
 name: Scale Recurrent Network for video deblurring
 tools: [Python, PyTorch]
-image: /assets/images/SRN.jpg
+image: ../assets/images/SRN.jpg
 description: Scale recurrent network use case on video deblurring.
 type: AI
 ---
 
-![preview](/assets/images/SRN.jpg)
+![preview](../assets/images/SRN.jpg)
 
 <p>In collaboration with <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume Haerinck</a></p>
 

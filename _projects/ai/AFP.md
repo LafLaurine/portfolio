@@ -1,7 +1,7 @@
 ---
 name: AFP Secure
 tools: [Python, TensorFlow, PyTorch, Keras, Docker, SpringBoot, React]
-image: /assets/images/afp.png
+image: ../assets/images/afp.png
 description: Detection algorithm of deepfakes.
 type: AI
 ---

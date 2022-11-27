@@ -1,12 +1,12 @@
 ---
 name: Sakari
 tools: [C#, Unity, Blender]
-image: /assets/images/Sakari_cover.png
+image: ../assets/images/Sakari_cover.png
 description: 3D puzzle game in third person based on a time-rewind mechanic.
 type: Game
 ---
 
-![sakari gameplay](/assets/images/sakari_gp.png)
+![sakari gameplay](../assets/images/sakari_gp.png)
 
 <p>In collaboration with <a href="https://github.com/dsmtE" target="_blank">Enguerrand De Smet</a>, <a href="https://github.com/JulesFouchy" target="_blank">Jules Fouchy</a>, <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume Haerinck</a> and <a href="https://github.com/LibertAntoine" target="_blank">Antoine Libert</a></p>
 
