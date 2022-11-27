@@ -7,7 +7,7 @@ type: Game
 ---
 
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![Tower defense](../../assets/images/ggj2021.jpg)
 
 <p>In collaboration with <a href="https://github.com/ClawsDevlp" target="_blank">Clara Daigmorte</a></p>
 

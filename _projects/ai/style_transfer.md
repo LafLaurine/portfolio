@@ -6,7 +6,7 @@ description: PyTorch3D use case of modeling 3D shapes.
 type: AI
 ---
 
-![preview](../assets/images/style-transfer.jpg)
+![style transfer](../../assets/images/style-transfer.jpg)
 
 <p>In collaboration with <a href="https://github.com/dsmtE" target="_blank">Enguerrand De Smet</a></p>
 

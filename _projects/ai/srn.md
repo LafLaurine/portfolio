@@ -6,7 +6,7 @@ description: Scale recurrent network use case on video deblurring.
 type: AI
 ---
 
-![preview](../assets/images/SRN.jpg)
+![SRN](../../assets/images/SRN.jpg)
 
 <p>In collaboration with <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume Haerinck</a></p>
 

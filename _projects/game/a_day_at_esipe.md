@@ -6,7 +6,7 @@ description:  2D game representing the daily life of an ESIPE student.
 type: Game
 ---
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![A day at ESIPE](../../assets/images/UEO.jpg)
 
 <p>In collaboration with <a href="https://github.com/Lchikar" target="_blank">Louisa Chikar</a> and Margaux Séguy</p>
 

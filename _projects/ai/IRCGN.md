@@ -6,7 +6,7 @@ description: Deepfake application for the Criminal Research Institute of the Gen
 type: AI
 ---
 
-![preview](..../assets/images/style-transfer.jpg)
+![IRCGN](../../assets/images/IRCGN.png)
 
 <p>In collaboration with <a href="https://github.com/pierrelabendzki" target="_blank">Pierre Labendzki</a></p>
 

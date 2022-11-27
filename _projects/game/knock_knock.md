@@ -6,7 +6,7 @@ description: Unreal Engine 4 game made for the Global Game Jam 2021.
 type: Game
 ---
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![Knock Knock](../../assets/images/ggj2021.jpg)
 
 <p>In collaboration with <a href="https://github.com/guillaume-haerinck" target="_blank">Guillaume Haerinck</a></p>
 

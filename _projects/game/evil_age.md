@@ -8,7 +8,7 @@ type: Game
 
 # Evil Age
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![Evil Age](../../assets/images/evil-age.jpg)
 
 <p>
 In collaboration with https://github.com/guillaume-haerinck

@@ -6,7 +6,7 @@ description: Creation of a 3D terrain and scene editor-visualizer.
 type: Software
 ---
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![World IMAKER](../../assets/images/worldimaker.png)
 
 <p>In collaboration with <a href="https://github.com/floraMlt" target="_blank">Flora Mallet</a></p>
 
