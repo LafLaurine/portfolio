@@ -80,6 +80,10 @@
     padding: 0 1em;
   }
 
+  ul {
+    list-style: square;
+  }
+
   ul.task-list {
     list-style: none;
     padding-left: 24px;
