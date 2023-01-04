@@ -1,14 +1,12 @@
 ---
 name: Flag viewer
 tools: [C++, Unity, Blender]
-image: ../assets/images/flag-viewer.jpg
+image: ../assets/images/flag_viewer.png
 description: A flag viewer made for a physical engine class at Université Gustave Eiffel.
 type: Software
 ---
 
-<video muted controls autoplay width="750">
-    <source src="../../assets/file/flag_viewer.mp4" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cUKlhTBx3HA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
 
 <br/>
 
