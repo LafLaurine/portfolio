@@ -6,7 +6,7 @@ description:  2D game representing the daily life of an ESIPE student.
 type: Game
 ---
 
-![A day at ESIPE](../../assets/images/UEO.jpg)
+<img src="../../assets/images/journee_esipe.gif" width=411 height=231/>
 
 <p>In collaboration with <a href="https://github.com/Lchikar" target="_blank">Louisa Chikar</a> and Margaux Séguy</p>
 
