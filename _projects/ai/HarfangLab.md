@@ -13,3 +13,5 @@ Harfanglab is a cybersecurity scale-up that develops an Endpoint Detection and R
 My work at HarfangLab is to design, develop and deploy deep and machine learning models using Python.
 
 We also write articles to talk about what we're doing at HarfangLab and how we improve AI in the cybersecurity world : <a href="https://inside.harfanglab.io/blog/artificial-intelligence/" target="_blank"> inside.harfanglab.io </a>
+
+In this blog I wrote <a href="https://inside.harfanglab.io/blog/articles/artificial-intelligence/working-against-powershell-a-collaboration-story-between-ai-and-cti-teams/" target="_blank">an article</a> about the collaboration between the CTI and AI team on the subject of PowerShell scripts.
