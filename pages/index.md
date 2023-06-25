@@ -21,9 +21,9 @@ permalink: /
 </div>
 </div>
 
-✈️ Originally from France, moving to Québec in mid 2023.
+✈️ Originally from France, moved to Québec City.
 
-🙋🏻‍♀️ Currently using my brain juice at Harfanglab to develop and improve our AI modules.
+🙋🏻‍♀️ Was using my brain juice at Harfanglab to develop and improve AI modules.
 
 I’m always learning new things and try to improve myself.\
 Things that I am into :
