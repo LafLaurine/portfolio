@@ -4,6 +4,7 @@ tools: [C++, Unity, Blender]
 image: ../assets/images/flag_viewer.png
 description: A flag viewer made for a physical engine class at Université Gustave Eiffel.
 type: Software
+weight: 5
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cUKlhTBx3HA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>

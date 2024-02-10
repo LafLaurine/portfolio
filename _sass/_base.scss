@@ -7,7 +7,7 @@ body {
 }
 
 .badge {
-  font-weight: 500;
+  font-weight: 500!important;
 }
 
 .bg-light,
@@ -34,11 +34,24 @@ body {
   font-size: 1.5rem !important;
 }
 
-.rainbow-text {
-  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
-  text-align: center;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 24px;
-  animation: rainbow 8s ease infinite;
+.small-card-text
+{
+  font-size: 0.8rem!important;
+}
+
+.card-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-columns>* {
+  flex: 1 1 275px;
+}
+
+.badge-text {
+  color: #FF8400!important;
+}
+
+.badge-border {
+  border-color: #FF8400!important;
 }

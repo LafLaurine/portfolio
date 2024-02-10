@@ -4,6 +4,7 @@ tools: [C#, Unity, Blender]
 image: ../assets/images/Sakari_cover.png
 description: 3D puzzle game in third person based on a time-rewind mechanic.
 type: Game
+weight: 3
 ---
 
 ![sakari gameplay](../../assets/images/sakari_gp.png)

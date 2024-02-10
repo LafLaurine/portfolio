@@ -4,6 +4,7 @@ tools: [C, OpenGL3, SDL]
 image: ../assets/images/tower.png
 description: Small tower defense.
 type: Game
+weight: 5
 ---
 
 

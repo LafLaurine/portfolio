@@ -4,6 +4,7 @@ tools: [Python, TensorFlow, Keras]
 image: ../assets/images/IRCGN.png
 description: Deepfake application for the Criminal Research Institute of the Gendarmerie Nationale.
 type: AI
+weight: 10
 ---
 
 ![IRCGN](../../assets/images/IRCGN.png)

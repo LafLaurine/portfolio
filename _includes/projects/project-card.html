@@ -8,7 +8,10 @@
       <h5 id="{{ project_id }}-name" class="card-title">
         {{ project_name }}
       </h5>
-      <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
+      <h6 id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</h6>
+      <p id="{{ project_id }}-type" class="card-text">
+        <span class="badge badge-pill badge-text border badge-border badge-border ml-1">{{ project_type }}</span>
+      </p>
       <p id="{{ project_id }}-tools" class="card-text">
         {%- for tool in project_tools -%}
         <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>

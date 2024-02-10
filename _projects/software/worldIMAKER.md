@@ -4,6 +4,7 @@ tools: [C++, OpenGL, SDL2, ImGUI, CMake, RenderDoc]
 image: ../assets/images/worldimaker.png
 description: Creation of a 3D terrain and scene editor-visualizer.
 type: Software
+weight: 5
 ---
 
 ![World IMAKER](../../assets/images/worldimaker.png)

@@ -4,6 +4,7 @@ tools: [Unity, Blender]
 image: ../assets/images/ludum_dare53.png
 description: Unity game made for the Ludum dare 53.
 type: Game
+weight: 3
 ---
 
 <img src="../../assets/images/ludum_dare53_gif.gif"/>

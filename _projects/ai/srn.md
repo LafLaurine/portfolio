@@ -4,6 +4,7 @@ tools: [Python, PyTorch]
 image: ../assets/images/SRN.jpg
 description: Scale recurrent network use case on video deblurring.
 type: AI
+weight: 10
 ---
 
 ![SRN](../../assets/images/srn_deblur.png)

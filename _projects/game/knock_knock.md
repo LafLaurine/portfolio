@@ -4,6 +4,7 @@ tools: [Unreal Engine 4, Mixamo, Blender]
 image: ../assets/images/ggj2021.jpg
 description: Unreal Engine 4 game made for the Global Game Jam 2021.
 type: Game
+weight: 5
 ---
 
 ![Knock Knock](../../assets/images/ggj2021.jpg)

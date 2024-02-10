@@ -4,6 +4,7 @@ tools: [Python, PyTorch, PyTorch3D, Trimesh]
 image: ../assets/images/style-transfer.jpg
 description: PyTorch3D use case of modeling 3D shapes.
 type: AI
+weight: 4
 ---
 
 <img src="../../assets/images/styletransfer.gif"/>

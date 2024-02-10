@@ -4,6 +4,7 @@ tools: [Python, TensorFlow, PyTorch, Keras, Docker, SpringBoot, React]
 image: ../assets/images/afp.png
 description: Detection algorithm of deepfakes.
 type: AI
+weight: 10
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ilsW5fp94ng" title="AFP secure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
