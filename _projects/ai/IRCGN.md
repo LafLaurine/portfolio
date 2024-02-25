@@ -1,6 +1,6 @@
 ---
 name: IRCGN head compare
-tools: [Python, TensorFlow, Keras]
+tools: [Python, TensorFlow, Keras, Doxygen]
 image: ../assets/images/IRCGN.png
 description: Deepfake application for the Criminal Research Institute of the Gendarmerie Nationale.
 type: AI
