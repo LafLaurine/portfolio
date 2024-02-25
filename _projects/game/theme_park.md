@@ -20,4 +20,4 @@ Here is the few things that we did:
 - Add multiple point of interests with editable variables : visit duration, entry position, exit position, max allowed visitors (up to infinity)
 - Navigation with NavMeshComponents : handle static obstacles, handle terrain heigth variation (A hole is an obstacle), handle moving obstacles (Other visitors)
 - Handle waiting queues : optimize for performance (at least 60fps with 100 agents), handle low-speed areas (near to water)
-- Crowd which do no visit attractions but interact with the terrain
+- Crowd which do not visit attractions but interact with the terrain

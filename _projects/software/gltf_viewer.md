@@ -4,7 +4,7 @@ tools: [C++, OpenGL4, SDL2, ImGUI, CMake, RenderDoc]
 image: ../assets/images/gltfviewer.png
 description: GLTF 3D Viewer made in OpenGL4.4.
 type: Software
-weight: 5
+weight: 4
 ---
 
 ![GLTF Viewer](../../assets/images/gltfviewer.png)
