@@ -19,6 +19,11 @@ The facial expression is done with a <a href="https://github.com/WuJie1010/Facia
 
 When the features are gathered, we can use our decoder to generate images based on the faces extracted from the video.
 
+<p>
+<img src="../../assets/images/ircgn_facealignment.png"/>
+Example of the detection of the different face features and the 3d representation of it.
+</p>
+
 <p class="text-center">
 {% include elements/button.html link="https://github.com/LafLaurine/imac2-memoire-ircgn" text="Check the source code" %}
 </p>
