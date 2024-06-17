@@ -3,19 +3,16 @@ layout: default
 permalink: /
 ---
 
-
 <div class="row justify-content-center align-items-center p-4">
 <div class="col-lg-4 col-md-6 text-center mt-4">
 
 <div id="catch_phrase">
-<p class="wow animated slideInUp" data-wow-delay=".15s"> Hi ! I'm Laurine, a C# software engineer</p>
+<p class="wow animated slideInUp" data-wow-delay=".15s"> Hi ! I'm Laurine, a french C# software engineer</p>
 </div>
 </div>
 </div>
 
-✈️ Originally from France, moved to Québec City.
-
-🙋🏻‍♀️ Was using my brain juice at Harfanglab to develop and improve AI modules. Now a software developer at Arcane Technologies, working on a 3D software (C#, Unity and WPF).
+🙋🏻‍♀️ Was using my brain juice at Harfanglab to develop and improve AI modules. Worked as a software developer at Arcane Technologies, on an ArchViz software (C#, Unity and WPF).
 
 Learning new things and improving are my mottos.\
 Things that I am into :
