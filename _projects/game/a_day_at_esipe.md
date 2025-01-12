@@ -2,7 +2,7 @@
 name: A day at ESIPE
 tools: [C#, Unity, Blender]
 image: ../assets/images/UEO.jpg
-description:  2D game representing the daily life of an ESIPE student.
+description: 2D game representing the daily life of an ESIPE student.
 type: Game
 weight: 5
 ---
